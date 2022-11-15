@@ -10,7 +10,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 
 }
 
-document.addEventListener("keypress", function() {
+document.addEventListener("keydown", function() {
   forsound(event.key);
 
 });
